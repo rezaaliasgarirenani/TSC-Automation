@@ -23,7 +23,7 @@ writeline(KLYSM2450,'reset()');
 %writeline(KLYSM2450,'format.data = format.ASCII')
 %Voltage is the SOURCE function: 
 writeline(KLYSM2450,'smu.measure.func = smu.FUNC_DC_CURRENT')
-writeline(KLYSM2450,'smu.source.func = smu.FUNC_DC_VOLTAGE')≠–≠
+writeline(KLYSM2450,'smu.source.func = smu.FUNC_DC_VOLTAGE')
 
 
 
